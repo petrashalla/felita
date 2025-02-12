@@ -532,13 +532,13 @@
                 </div>
             </div>
         </header><main class="main">
-    <div class="page-top">
+    <div class="page-top section-offset">
         <div class="container">
             <ul class="breadcrumbs">
                 <li><a href="/">Главная</a></li>
-                <li><a href="">Специалисты</a></li>
-                <li>Иванов Иван Иванович</li>
+                <li>Акции</li>
             </ul>
+            <h1 class="title-h1 page-top__title">Акции клиники</h1>
         </div>
         <picture class="page-top__bg">
             <source srcset="assets/img/breadcrumbs/breadcrumbs-bg.webp" type="image/webp" />
@@ -546,411 +546,88 @@
         </picture>
     </div>
     
-    <section class="doctor-page section-offset">
+    
+    <!-- stocks-page-5 -->
+    <section class="stocks-page section-offset">
         <div class="container">
-            <div class="doctor-page__flex change-item">
     
-                <div class="doctor-page__info doctor-page__block">
-                    <div class="doctor-page__info_photo">
-                        <picture class="doctor-page__info_img">
-                            <source srcset="assets/img/doctors/doctor-1.webp" type="image/webp" />
-                            <img src="assets/img/doctors/doctor-1.jpg" alt="" />
-                        </picture>
+            <div class="tab">
+                <div class="stocks-page__sort">
+                    <div class="stocks-page__tab_btns tab__btns tab__btns-acc">
+                        <button class="stocks-page__tab_btn tab__btn-acc tab__btn active" data-id="temp">
+                            <span>Временные</span>
+                            <div class="stocks-page__btn-arrow btn-arrow"></div>
+                        </button>
+                        <button class="stocks-page__tab_btn tab__btn-acc tab__btn"  data-id="always">
+                            <span>Постоянные</span>
+                            <div class="stocks-page__btn-arrow btn-arrow"></div>
+                        </button>
+                    </div>
+                </div>
     
-                        <div class="doctor-page__rating">
-                            <div class="doctor-page__rating_estimation">
-                                <p>5.0</p>
-                                <div class="doctor-page__rating_stars">
-                                    <span class="doctor-page__rating_star-active">
-                                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.5525 0.808147C10.8585 -0.098909 12.1415 -0.0989079 12.4475 0.808148L14.3014 6.30249C14.4386 6.70905 14.8198 6.98278 15.2489 6.98278H21.1655C22.1434 6.98278 22.54 8.2416 21.7388 8.80215L17.0179 12.1051C16.6541 12.3596 16.5017 12.8235 16.6436 13.2441L18.462 18.6334C18.7707 19.5481 17.7323 20.3259 16.9413 19.7724L12.0733 16.3666C11.729 16.1258 11.271 16.1258 10.9267 16.3666L6.05873 19.7724C5.26773 20.3259 4.22932 19.5481 4.53796 18.6334L6.35637 13.2441C6.49832 12.8235 6.3459 12.3596 5.98212 12.1051L1.2612 8.80215C0.459988 8.2416 0.856625 6.98278 1.83446 6.98278H7.75109C8.18017 6.98278 8.56142 6.70905 8.6986 6.30249L10.5525 0.808147Z" fill="#FFDA33" />
-                                        </svg>
-                                    </span>
-                                    <span class="doctor-page__rating_star-active">
-                                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.5525 0.808147C10.8585 -0.098909 12.1415 -0.0989079 12.4475 0.808148L14.3014 6.30249C14.4386 6.70905 14.8198 6.98278 15.2489 6.98278H21.1655C22.1434 6.98278 22.54 8.2416 21.7388 8.80215L17.0179 12.1051C16.6541 12.3596 16.5017 12.8235 16.6436 13.2441L18.462 18.6334C18.7707 19.5481 17.7323 20.3259 16.9413 19.7724L12.0733 16.3666C11.729 16.1258 11.271 16.1258 10.9267 16.3666L6.05873 19.7724C5.26773 20.3259 4.22932 19.5481 4.53796 18.6334L6.35637 13.2441C6.49832 12.8235 6.3459 12.3596 5.98212 12.1051L1.2612 8.80215C0.459988 8.2416 0.856625 6.98278 1.83446 6.98278H7.75109C8.18017 6.98278 8.56142 6.70905 8.6986 6.30249L10.5525 0.808147Z" fill="#FFDA33" />
-                                        </svg>
-                                    </span>
-                                    <span class="doctor-page__rating_star-active">
-                                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.5525 0.808147C10.8585 -0.098909 12.1415 -0.0989079 12.4475 0.808148L14.3014 6.30249C14.4386 6.70905 14.8198 6.98278 15.2489 6.98278H21.1655C22.1434 6.98278 22.54 8.2416 21.7388 8.80215L17.0179 12.1051C16.6541 12.3596 16.5017 12.8235 16.6436 13.2441L18.462 18.6334C18.7707 19.5481 17.7323 20.3259 16.9413 19.7724L12.0733 16.3666C11.729 16.1258 11.271 16.1258 10.9267 16.3666L6.05873 19.7724C5.26773 20.3259 4.22932 19.5481 4.53796 18.6334L6.35637 13.2441C6.49832 12.8235 6.3459 12.3596 5.98212 12.1051L1.2612 8.80215C0.459988 8.2416 0.856625 6.98278 1.83446 6.98278H7.75109C8.18017 6.98278 8.56142 6.70905 8.6986 6.30249L10.5525 0.808147Z" fill="#FFDA33" />
-                                        </svg>
-                                    </span>
-                                    <span class="doctor-page__rating_star-active">
-                                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.5525 0.808147C10.8585 -0.098909 12.1415 -0.0989079 12.4475 0.808148L14.3014 6.30249C14.4386 6.70905 14.8198 6.98278 15.2489 6.98278H21.1655C22.1434 6.98278 22.54 8.2416 21.7388 8.80215L17.0179 12.1051C16.6541 12.3596 16.5017 12.8235 16.6436 13.2441L18.462 18.6334C18.7707 19.5481 17.7323 20.3259 16.9413 19.7724L12.0733 16.3666C11.729 16.1258 11.271 16.1258 10.9267 16.3666L6.05873 19.7724C5.26773 20.3259 4.22932 19.5481 4.53796 18.6334L6.35637 13.2441C6.49832 12.8235 6.3459 12.3596 5.98212 12.1051L1.2612 8.80215C0.459988 8.2416 0.856625 6.98278 1.83446 6.98278H7.75109C8.18017 6.98278 8.56142 6.70905 8.6986 6.30249L10.5525 0.808147Z" fill="#FFDA33" />
-                                        </svg>
-                                    </span>
-                                    <span class="doctor-page__rating_star">
-                                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.5525 0.808147C10.8585 -0.098909 12.1415 -0.0989079 12.4475 0.808148L14.3014 6.30249C14.4386 6.70905 14.8198 6.98278 15.2489 6.98278H21.1655C22.1434 6.98278 22.54 8.2416 21.7388 8.80215L17.0179 12.1051C16.6541 12.3596 16.5017 12.8235 16.6436 13.2441L18.462 18.6334C18.7707 19.5481 17.7323 20.3259 16.9413 19.7724L12.0733 16.3666C11.729 16.1258 11.271 16.1258 10.9267 16.3666L6.05873 19.7724C5.26773 20.3259 4.22932 19.5481 4.53796 18.6334L6.35637 13.2441C6.49832 12.8235 6.3459 12.3596 5.98212 12.1051L1.2612 8.80215C0.459988 8.2416 0.856625 6.98278 1.83446 6.98278H7.75109C8.18017 6.98278 8.56142 6.70905 8.6986 6.30249L10.5525 0.808147Z" fill="#FFDA33" />
-                                        </svg>
-                                    </span>
+                <div class="tabcontent active" data-id="temp">
+                    <div class="stocks-page__cards">
+                        <div class="stocks-page__card">
+                            <div class="stocks-page__card_main">
+                                <div class="stocks-page__card_titles">
+                                    <div class="stocks-page__card_name">Скидка на услуги до 15%</div>
+                                    <p class="stocks-page__card_description">Наши доктора помогают избавиться пациентам от хронических зависимостей. Повышаем качество жизни клиентов, их родственников, родных и близких.</p>
                                 </div>
+                                <button class="stocks-page__card_btn primary-btn popup-btn" data-path="popup-change">Записаться на услугу</button>
                             </div>
-    
-                            <div class="doctor-page__rating_logo">
-                                <picture>
-                                    <source srcset="assets/img/icons/pro-doctorov.svg" type="image/svg+xml">
-                                    <img src="assets/img/icons/pro-doctorov.png" alt="pro-doctorov">
-                                </picture>
-                            </div>
+                            <picture class="stocks-page__card_img">
+                                <source srcset="assets/img/stocks/stock-1.webp" type="image/webp">
+                                <img src="assets/img/stocks/stock-1.jpg" loading="lazy">
+                                <p class="stocks-page__card_date">Действует до 23.05.2024</p>
+                            </picture>
                         </div>
-                    </div>
     
-                    <div class="doctor-page__info_btns--mob">
-                        <button class="primary-btn doctor-page__info_btn popup-btn change-item__btn doctor__btn-js" data-path="popup-change">Записаться на прием</button>
-                        <p class="doctor-page__info_price">Стоимость приема: <span>от 3500 ₽</span></p>
-                    </div>
-    
-                    <div class="doctor-page__info_content">
-                        <div>
-                            <p class="doctor-page__info_experience">Стаж работы: 15 лет</p>
-                            <p class="doctor-page__info_fio change-item__title">Иванов Иван Иванович</p>
-                        </div>
-                        <div class="doctor-page__info_post">
-                            <div class="doctor-page__post_item">
-                                <picture class="doctor-page__post_icon">
-                                    <source srcset="assets/img/icons/doctor-page-post.svg" type="image/svg+xml">
-                                    <img src="assets/img/icons/doctor-page-post.svg" loading="lazy" alt="Должность">
-                                </picture>
-                                <div>
-                                    <p class="doctor-page__post_text">Должность:</p>
-                                    <p class="doctor-page__post_post">Заведующий отделением реабилитации, нарколог</p>
+                        <div class="stocks-page__card">
+                            <div class="stocks-page__card_main">
+                                <div class="stocks-page__card_titles">
+                                    <div class="stocks-page__card_name">Скидка на услуги до 15%</div>
+                                    <p class="stocks-page__card_description">Наши доктора помогают избавиться пациентам от хронических зависимостей. Повышаем качество жизни клиентов, их родственников, родных и близких.</p>
                                 </div>
+                                <button class="stocks-page__card_btn primary-btn popup-btn" data-path="popup-change">Записаться на услугу</button>
                             </div>
-                            <div class="doctor-page__post_item">
-                                <picture class="doctor-page__post_icon">
-                                    <source srcset="assets/img/icons/doctor-page-stepen.svg" type="image/svg+xml">
-                                    <img src="assets/img/icons/doctor-page-stepen.svg" loading="lazy" alt="Ученая степень">
-                                </picture>
-                                <div>
-                                    <p class="doctor-page__post_text">Ученая степень:</p>
-                                    <p class="doctor-page__post_post">Доктор медицинских наук</p>
+                            <picture class="stocks-page__card_img">
+                                <source srcset="assets/img/stocks/stock-1.webp" type="image/webp">
+                                <img src="assets/img/stocks/stock-1.jpg" loading="lazy">
+                                <p class="stocks-page__card_date">Действует до 23.05.2024</p>
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="tabcontent" data-id="always">
+                    <div class="stocks-page__cards">
+                        <div class="stocks-page__card">
+                            <div class="stocks-page__card_main">
+                                <div class="stocks-page__card_titles">
+                                    <div class="stocks-page__card_name">Скидка на услуги до 15%</div>
+                                    <p class="stocks-page__card_description">Наши доктора помогают избавиться пациентам от хронических зависимостей. Повышаем качество жизни клиентов, их родственников, родных и близких.</p>
                                 </div>
+                                <button class="stocks-page__card_btn primary-btn popup-btn" data-path="popup-change">Записаться на услугу</button>
                             </div>
-                        </div>
-                        <p class="doctor-page__info_description">Наши доктора помогают избавиться пациентам от хронических
-                            зависимостей. Повышаем качество жизни клиентов, их родственников, родных и близких. Наши доктора
-                            помогают избавиться пациентам от хронических зависимостей. Повышаем качество жизни клиентов, их
-                            родственников, родных и близких. Наши доктора помогают избавиться пациентам от хронических
-                            зависимостей</p>
-                        <div class="doctor-page__info_btns">
-                            <button class="primary-btn doctor-page__info_btn popup-btn change-item__btn doctor__btn-js"
-                                data-path="popup-change">Записаться на прием</button>
-                            <p class="doctor-page__info_price">Стоимость приема: <span>от 3500 ₽</span></p>
-                        </div>
-                    </div>
-                </div>
-    
-    
-                <div class="doctor-page__schedule doctor-page__block">
-                    <p class="doctor-page__block_title">График работы</p>
-                    <ul class="doctor-page__schedule_list">
-                        <li class="doctor-page__schedule_item">
-                            <p class="doctor-page__schedule_day">Понедельник</p>
-                            <p class="doctor-page__schedule_time">09:00 - 18:00</p>
-                        </li>
-    
-                        <li class="doctor-page__schedule_item">
-                            <p class="doctor-page__schedule_day">Вторник</p>
-                            <p class="doctor-page__schedule_time">09:00 - 18:00</p>
-                        </li>
-    
-                        <li class="doctor-page__schedule_item">
-                            <p class="doctor-page__schedule_day">Среда</p>
-                            <p class="doctor-page__schedule_time">09:00 - 18:00</p>
-                        </li>
-    
-                        <li class="doctor-page__schedule_item">
-                            <p class="doctor-page__schedule_day">Четверг</p>
-                            <p class="doctor-page__schedule_weekend">Выходной</p>
-                        </li>
-    
-                        <li class="doctor-page__schedule_item">
-                            <p class="doctor-page__schedule_day">Пятница</p>
-                            <p class="doctor-page__schedule_time">09:00 - 18:00</p>
-                        </li>
-    
-                        <li class="doctor-page__schedule_item">
-                            <p class="doctor-page__schedule_day">Суббота</p>
-                            <p class="doctor-page__schedule_weekend">Выходной</p>
-                        </li>
-    
-                        <li class="doctor-page__schedule_item">
-                            <p class="doctor-page__schedule_day">Воскресенье</p>
-                            <p class="doctor-page__schedule_weekend">Выходной</p>
-                        </li>
-                    </ul>
-                </div>
-    
-    
-                <div class="doctor-page__education doctor-page__block">
-                    <p class="doctor-page__block_title">Образование главврача</p>
-                    <div class="tab-contents">
-                        <div class="tab-content active" style="order: 2">
-                            <div class="doctor-page__list">
-                                <ul>
-                                    <li>
-                                        <p><span>1995-1997 г.</span> Специализация - клиническая ординатура на кафедре
-                                            «Нервных болезней и Нейрохирургии» РостГму, сертификат специалиста по
-                                            специальности – «Неврология» (с 1997г.)</p>
-                                    </li>
-                                    <li>
-                                        <p><span>1995-1997 г.</span> Специализация - клиническая ординатура на кафедре
-                                            «Нервных болезней и Нейрохирургии» РостГму, сертификат специалиста по
-                                            специальности – «Неврология» (с 1997г.)</p>
-                                    </li>
-                                    <li>
-                                        <p><span>1995-1997 г.</span> Специализация - клиническая ординатура на кафедре
-                                            «Нервных болезней и Нейрохирургии» РостГму, сертификат специалиста по
-                                            специальности – «Неврология» (с 1997г.)</p>
-                                    </li>
-                                </ul>
-                            </div>
+                            <picture class="stocks-page__card_img">
+                                <source srcset="assets/img/stocks/stock-1.webp" type="image/webp">
+                                <img src="assets/img/stocks/stock-1.jpg" loading="lazy">
+                                <p class="stocks-page__card_date">Действует до 23.05.2024</p>
+                            </picture>
                         </div>
     
-    
+                      
                     </div>
                 </div>
     
-    
-                <div class="doctor-page__diplomas doctor-page__block tabs">
-    
-                    <p class="doctor-page__block_title">Дипломы</p>
-    
-                    <div class="doctor-page__diplomas_swiper swiper doctorDiplomasSwiper">
-                        <div class="swiper-wrapper">
-                            <div class="doctor-page__diplomas_swiper-slide swiper-slide">
-                                <a href="assets/img/diplomas/diplom-1.jpg" data-fancybox="diplomas">
-                                    <picture class="doctor-page__diplomas_picture">
-                                        <source srcset="assets/img/diplomas/diplom-1.webp" type="image/webp">
-                                        <img src="assets/img/diplomas/diplom-1.jpg" loading="lazy">
-                                    </picture>
-                                    <p class="doctor-page__diplomas_label">Диплом о базовом медицинском образовании
-                                        по специальности: «Клиническая (медицинская) психология»</p>
-                                </a>
-                            </div>
-    
-                            <div class="doctor-page__diplomas_swiper-slide swiper-slide">
-                                <a href="assets/img/diplomas/diplom-1.jpg" data-fancybox="diplomas">
-                                    <picture class="doctor-page__diplomas_picture">
-                                        <source srcset="assets/img/diplomas/diplom-1.webp" type="image/webp">
-                                        <img src="assets/img/diplomas/diplom-1.jpg" loading="lazy">
-                                    </picture>
-                                    <p class="doctor-page__diplomas_label">Диплом о базовом медицинском образовании
-                                        по специальности: «Клиническая (медицинская) психология»</p>
-                                </a>
-                            </div>
-    
-                            <div class="doctor-page__diplomas_swiper-slide swiper-slide">
-                                <a href="assets/img/diplomas/diplom-1.jpg" data-fancybox="diplomas">
-                                    <picture class="doctor-page__diplomas_picture">
-                                        <source srcset="assets/img/diplomas/diplom-1.webp" type="image/webp">
-                                        <img src="assets/img/diplomas/diplom-1.jpg" loading="lazy">
-                                    </picture>
-                                    <p class="doctor-page__diplomas_label">Диплом о базовом медицинском образовании
-                                        по специальности: «Клиническая (медицинская) психология»</p>
-                                </a>
-                            </div>
-    
-                            <div class="doctor-page__diplomas_swiper-slide swiper-slide">
-                                <a href="assets/img/diplomas/diplom-1.jpg" data-fancybox="diplomas">
-                                    <picture class="doctor-page__diplomas_picture">
-                                        <source srcset="assets/img/diplomas/diplom-1.webp" type="image/webp">
-                                        <img src="assets/img/diplomas/diplom-1.jpg" loading="lazy">
-                                    </picture>
-                                    <p class="doctor-page__diplomas_label">Диплом о базовом медицинском образовании
-                                        по специальности: «Клиническая (медицинская) психология»</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="doctor-page__diplomas_swiper-btns swiper-btns">
-                        <button class="diplomas__swiper-button-prev swiper-button-prev"></button>
-                        <button class="diplomas__swiper-button-next swiper-button-next"></button>
-                    </div>
-                </div>
-    
-                <div class="doctor-page__works doctor-page__block">
-                    <p class="doctor-page__block_title">Профиль работы и научная деятельность</p>
-                    <div class="doctor-page__list">
-                        <ul>
-                            <li>
-                                <p>Лечение алкогольной зависимости</p>
-                            </li>
-                            <li>
-                                <p>Лечение наркологической зависимости</p>
-                            </li>
-                            <li>
-                                <p>Лечение никотиновой зависимости</p>
-                            </li>
-                            <li>
-                                <p>Лечение зависимости от медикаментов</p>
-                            </li>
-                            <li>
-                                <p>Лечение полинаркомании</p>
-                            </li>
-                            <li>
-                                <p>Лечение психических расстройств, вызванных употреблением психоактивных веществ</p>
-                            </li>
-                            <li>
-                                <p>Лечение синдрома отмены (абстиненция)</p>
-                            </li>
-                            <li>
-                                <p>Лечение сопутствующих заболеваний и состояний</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
             </div>
-    </section><!-- articles-3 -->
-    <section class="articles">
-        <div class="container">
-            <div class="section__flex">
-                <div class="section__top articles__top">
-                    <h2 class="title-h2">Статьи врача</h2>
-                    <a href="#" class="tertiary-btn articles__btn section__btn">Все статьи</a>
-                </div>
     
-                <div class="section__inner articles__inner">
-                    <div class="articles__cards">
-                        <div class="articles__swiper swiper articlesSwiper">
-                            <div class="swiper-wrapper">
-            
-                                <div class="articles__swiper-slide swiper-slide">
-                                    <div class="articles__card">
-                                        <div class="articles__card_picture">
-                                            <picture>
-                                                <source srcset="assets/img/articles/articles-3/article-1.webp" type="image/webp">
-                                                <img src="assets/img/articles/articles-3/article-1.jpg" loading="lazy">
-                                            </picture>
-                                        </div>
-                                        <div class="articles__card_labels">
-                                            <p>Алкоголизм</p>
-                                        </div>
-                                        <div class="articles__card_inner">
-                                            <div class="articles__card_text">
-                                                <p class="articles__card_title">Лечение алкоголизма по методу Довженко</p>
-                                                <p>Наши доктора помогают избавиться пациентам от хронических зависимостей. Повышаем качество жизни клиентов, их родственников, родных и близких</p>
-                                            </div>
-                                            <div class="articles__card_bottom">
-                                                <a href="#" class="articles__card_more btn-arrow">Читать статью</a>
-                                                <p class="articles__card_date">12 мая 2024</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-            
-                                <div class="articles__swiper-slide swiper-slide">
-                                    <div class="articles__card">
-                                        <div class="articles__card_picture">
-                                            <picture>
-                                                <source srcset="assets/img/articles/articles-3/article-1.webp" type="image/webp">
-                                                <img src="assets/img/articles/articles-3/article-1.jpg" loading="lazy">
-                                            </picture>
-                                        </div>
-                                        <div class="articles__card_labels">
-                                            <p>Алкоголизм</p>
-                                        </div>
-                                        <div class="articles__card_inner">
-                                            <div class="articles__card_text">
-                                                <p class="articles__card_title">Лечение алкоголизма по методу Довженко</p>
-                                                <p>Наши доктора помогают избавиться пациентам от хронических зависимостей. Повышаем качество жизни клиентов, их родственников, родных и близких</p>
-                                            </div>
-                                            <div class="articles__card_bottom">
-                                                <a href="#" class="articles__card_more btn-arrow">Читать статью</a>
-                                                <p class="articles__card_date">12 мая 2024</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-            
-                                <div class="articles__swiper-slide swiper-slide">
-                                    <div class="articles__card">
-                                        <div class="articles__card_picture">
-                                            <picture>
-                                                <source srcset="assets/img/articles/articles-3/article-1.webp" type="image/webp">
-                                                <img src="assets/img/articles/articles-3/article-1.jpg" loading="lazy">
-                                            </picture>
-                                        </div>
-                                        <div class="articles__card_labels">
-                                            <p>Алкоголизм</p>
-                                        </div>
-                                        <div class="articles__card_inner">
-                                            <div class="articles__card_text">
-                                                <p class="articles__card_title">Лечение алкоголизма по методу Довженко</p>
-                                                <p>Наши доктора помогают избавиться пациентам от хронических зависимостей. Повышаем качество жизни клиентов, их родственников, родных и близких</p>
-                                            </div>
-                                            <div class="articles__card_bottom">
-                                                <a href="#" class="articles__card_more btn-arrow">Читать статью</a>
-                                                <p class="articles__card_date">12 мая 2024</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                                <div class="articles__swiper-slide swiper-slide">
-                                    <div class="articles__card">
-                                        <div class="articles__card_picture">
-                                            <picture>
-                                                <source srcset="assets/img/articles/articles-3/article-1.webp" type="image/webp">
-                                                <img src="assets/img/articles/articles-3/article-1.jpg" loading="lazy">
-                                            </picture>
-                                        </div>
-                                        <div class="articles__card_labels">
-                                            <p>Алкоголизм</p>
-                                        </div>
-                                        <div class="articles__card_inner">
-                                            <div class="articles__card_text">
-                                                <p class="articles__card_title">Лечение алкоголизма по методу Довженко</p>
-                                                <p>Наши доктора помогают избавиться пациентам от хронических зависимостей. Повышаем качество жизни клиентов, их родственников, родных и близких</p>
-                                            </div>
-                                            <div class="articles__card_bottom">
-                                                <a href="#" class="articles__card_more btn-arrow">Читать статью</a>
-                                                <p class="articles__card_date">12 мая 2024</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                                <div class="articles__swiper-slide swiper-slide">
-                                    <div class="articles__card">
-                                        <div class="articles__card_picture">
-                                            <picture>
-                                                <source srcset="assets/img/articles/articles-3/article-1.webp" type="image/webp">
-                                                <img src="assets/img/articles/articles-3/article-1.jpg" loading="lazy">
-                                            </picture>
-                                        </div>
-                                        <div class="articles__card_labels">
-                                            <p>Алкоголизм</p>
-                                        </div>
-                                        <div class="articles__card_inner">
-                                            <div class="articles__card_text">
-                                                <p class="articles__card_title">Лечение алкоголизма по методу Довженко</p>
-                                                <p>Наши доктора помогают избавиться пациентам от хронических зависимостей. Повышаем качество жизни клиентов, их родственников, родных и близких</p>
-                                            </div>
-                                            <div class="articles__card_bottom">
-                                                <a href="#" class="articles__card_more btn-arrow">Читать статью</a>
-                                                <p class="articles__card_date">12 мая 2024</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="articles__swiper-btns swiper-btns">
-                        <button class="articles__swiper-button-prev swiper-button-prev"></button>
-                        <button class="articles__swiper-button-next swiper-button-next"></button>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
-    <section class="form-2 form-white" style="background-color: #fff;">
+    
+    
+    
+    <section class="form-2 form-white">
         <div class="container">
             <div class="form-2__row">
                 <picture class="form-2__img">
@@ -1000,8 +677,6 @@
             </div>
         </div>
     </section>
-    
-    
 </main>
     <!-- footer-7 -->
     <footer class="footer">
